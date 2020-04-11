@@ -1,0 +1,568 @@
+@charset "UTF-8";
+
+/*------------SITE CONATINER-----------*/
+
+.hidden {   /* Class to hide titles */
+	display: none;
+}
+
+#siteContainer {   /* Site Dimensions */
+	margin: 0 auto;
+	width: 960px;
+}
+
+body {
+	background-image: url("../images/home_paper_background.jpg");
+}
+
+h2 {   /* Heading 2 */
+	font-size: 32px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin-left: 28px;
+}
+
+h3 {   /* Heading 3 */
+	display: flex;
+	justify-content: center;
+	font-size: 28px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin: 40px 0px 20px 0px;
+}
+
+h4 {   /* Heading 4 */
+	font-size: 18px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin: 5px 0px 10px 0px;
+}
+
+h5 {   /* Heading 5 */
+	font-size: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+
+
+/*----------------HEADER----------------*/
+
+.mainHeader {   /* Header Dimensions */
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height: 112px;
+	font-size: 26px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	background-color: #004310;
+}
+
+.logoHeader {   /* Logo in Header */
+	width: 90px;
+	height: 90px;
+	margin: 10px 0px 0px 20px;
+}
+
+.mainNav {   /* Header Navigation */
+	width: 610px;
+	height: 24px;
+	margin: 42px 10px 0px 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.mainNav ul li {   /* Navigation list styling */
+	font-size: 26px;
+	letter-spacing: -1px;
+	display: inline;
+	cursor: pointer;
+	margin: 0px 10px 0px 8px;
+}
+
+.mainNav ul li a {   /* Navigation list styling */
+	color: #fff;
+	text-decoration: none;
+}
+
+.mainNav ul li a:hover {
+	color: #CB2E16;
+	font-weight: bold;
+
+
+	-webkit-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+}
+
+.searchBar {   
+	width: 196px;
+	height: 34px;
+	background-color: white;
+	margin: 35px 0px 0px 0px;
+	font-size: 28px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	border: 3px solid white;
+	border-radius: 6px;
+	color: white;
+	background-color: #004310;
+	display: flex;
+	flex-direction: row;
+}
+
+.searchBar img {
+	width: 28px;
+	height: 28px;
+	margin: 3px 26px 0px 6px;
+	position: relative;
+	animation-name: example;
+	animation-duration: 3s;
+	animation-delay: 1s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+.searchBar p {   
+	margin-top: 4px;
+}
+
+@keyframes example {
+from {left: 0px; transform: rotate(0deg);}
+to {left: 160px; transform: rotate(90deg);}
+}
+
+/*---------------HOME_/_Hero_Image_Scroll--------------*/
+
+.heroImgScrl {   /* Home Hero Image */
+	height: 312px;
+}
+
+
+
+/*---------------HOME_/_Featured_Products--------------*/
+
+.ftdProducts {   /* Featured Products Section */
+	height: 340px;
+	margin-top: 20px;
+}
+
+.lineDivider {   /* Black Line Divider */
+	width: 480px;
+	height: 3px;
+	background-color: black;
+}
+
+.ftdBeer {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px 0px 0px 0px;
+}
+
+.imgText {
+	display: flex;
+	flex-direction: row;
+	border: 2px solid black;
+	padding: 8px 0px 8px 0px;
+	width: 230px;
+}
+
+.ftdImg {
+	width: 66px;
+	height: 212px;
+}
+
+.ftdImg img {
+	margin: 0px 20px 0px 20px;
+}
+
+.ftdText {
+	margin-left: 30px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.ftdInfo {
+	width: 130px;
+	height: 130px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.prdctBtn {
+	display: flex;
+	justify-content: center;
+	width: 10px;
+}
+
+.prdctBtn a {
+	font-family: "Bahnschrift", Arial, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+.shpMrBtn {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.shpMrBtn a {
+	font-family: "Bahnschrift", Arial, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*---------------HOME_/_OUR_BRAND--------------*/
+
+.ourBrand {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 960px;
+	height: 314px;
+	margin: 20px 0px 20px 0px;
+}
+
+.brndInfo{
+	width: 440px;
+	height: 200px;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin: 10px 0px 0px 26px;
+}
+
+.moreBtn {
+	display: flex;
+	justify-content: center;
+	margin-top: 56px;
+}
+
+.moreBtn a {
+	font-family: "Bahnschrift", Arial, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+.brndImg img{
+	width: 448px;
+	height: 314px;
+	margin-left: 24px;
+}
+
+
+
+/*---------PRODUCTS_/_Hero_IMAGE--------*/
+
+.heroImg {
+	height: 312px;
+}
+
+
+
+/*---------PRODUCTS_/_BEER----------*/
+
+.Beer {
+	height: 1020px;
+	margin: 20px 0px 60px 0px;
+}
+
+.series {
+	height: 420px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.beerContent {
+	border: 2px solid black;
+	padding: 10px 10px 10px 10px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.beerContent p {
+	margin: 20px 0px 10px 0px;
+}
+
+.beerimg {
+	height: 160px;
+	width: 160px;
+	margin: 0px 0px 50px 10px;
+}
+
+.prdctinfo {
+	width: 180px;
+	margin: 0px 0px 10px 0px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.prdctBtn{
+	margin: 25px 0px 0px 60px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+
+
+/*---------Our_Brand_/_Our_Brand----------*/
+
+.ourBrndInfo {
+	width: 960px;
+	height: 810px;
+	margin: 20px 0px 60px 0px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.brandP1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.brandP1 p{
+	width: 560px;
+	height: 94px;
+	margin: 38px 0px 20px 210px;
+}
+
+.infoAndpic {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.brndInfo1And2 {
+	width: 322px;
+	height: 416px; 
+	margin: 62px 0px 0px 0px;
+}
+
+.brndInfo1And2 h5 {
+	margin: 16px 0px 30px 0px;
+}
+
+
+
+/*----------------Contact_/_HeroImg----------------*/
+
+.heroImgContact {
+	width: 960px;
+	height: 178px;
+}
+
+
+
+/*----------------Contact_/_Email_Us----------------*/
+
+.emailUs {   /* Email Us Section */
+	width: 960px;
+	height: 540px;
+	margin: 40px 0px 20px 0px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.emailUs p {   /* Email Us Paragraph */
+	width: 500px;
+	margin: 10px 0px 0px 30px;
+}
+
+.contactRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contactForm {
+	margin: 40px 0px 60px 0px;
+}
+
+.inputBox label {
+	font-size: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	display: block;
+	margin: 20px 0px 0px 24px;
+}
+
+.inputBox div {
+	width: 260px;
+	height: 45px;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin-left: 20px;
+}
+
+.inputBoxMessage { /* Input Box For Messages */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.inputBoxMessage label {
+	font-size: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	display: block;
+	margin: 20px 0px 0px 24px;
+}
+
+.inputBoxMessage div {
+	width: 540px;
+	height: 88px;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin-left: 20px;
+}
+
+.submitAndReset {   
+	width: 142px;
+	height: 38px;
+	margin: 20px 0px 0px 20px;
+	font-size: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	border: 2px solid black;
+	border-radius: 6px;
+}
+
+.submitAndReset p {   
+	margin: 10px 0px 0px 40px;
+}
+
+.contactRowBottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contactRowBottom label {
+	font-size: 22px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin: 20px 0px 0px 24px;
+}
+
+.contactRowBottom input {
+	width: 540px;
+	height: 88px;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	margin-left: 20px;
+}
+
+/*----------------Contact_/_Social_Media----------------*/
+
+.socialMedia {   /* Social Media Section Dimensions */
+	width: 960px;
+	height: 210px;
+	margin: 0px 0px 20px 0px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+}
+
+.socialMedia p {   /* Social Media Paragraph */
+	width: 480px;
+	margin: 10px 0px 0px 30px;
+}
+
+.socialMediaPics {   /* Social Media Images Box */
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.mediaPics {   /* Social Media Images */
+	width: 80px;
+	height: 80px;
+	margin: 35px 0px 0px 0px;
+}
+
+
+
+/*----------------Promotions_/_Hero_Image----------------*/
+
+.heroImgPromotions {
+	width: 960px;
+	height: 542px;
+	background-color: red;
+	margin: 0px 0px 40px 0px;
+}
+
+
+/*----------------Promotions_/_Promotions----------------*/
+
+.promotions {
+
+}
+
+.promotionsGrid {
+	width: 960px;
+	display: grid;
+	margin: 60px 0px 0px 0px;
+	grid-template-columns: 300px 300px 0px;
+	grid-gap: 80px;
+}
+
+.promotionsGrid img{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+
+.promoVid {
+	width: 400px;
+	height: 250px;
+	display: flex;
+	margin: 60px 0px 50px 280px;
+	background-color: orange;
+}
+/*----------------FOOTER----------------*/
+
+.mainFooter {   /* Footer Section Dimensions */
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin: 0 auto;
+	width: 960px;
+	height: 112px;
+	background-color: #004310;
+}
+
+.logoFooter {   /* Footer Logo */
+	width: 90px;
+	height:90px;
+	margin: 10px 10px 0px 20px;
+}
+
+.footerNav {   /* Footer Navigation */
+	width: 90px;
+	height: 100px;
+	margin: 14px 0px 0px 8px;
+}
+
+.footerNav ul li {   /* Footer Nav List Styling */
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 26px;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+
+.footerNav ul li a {   /* Footer Nav List Font Styling */
+	color: white;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	text-decoration: none;
+}
+
+.footerNav ul li a:hover {
+	color: #CB2E16;
+	font-weight: bold;
+
+
+	-webkit-transition: all .5s ease-in;
+	-o-transition: all .5s ease-in;
+	-moz-transition: all .5s ease-in;
+	transition: all .5s ease-in;
+}
+
+.copyright {   /* Copyright Info Section */
+	width: 240px;
+	height: 16px;
+	font-family: "Bahnschrift", Arial, sans-serif;
+	color: white;
+	align-self: flex-end;
+	margin: 0px 0px 4px 80px;
+}
