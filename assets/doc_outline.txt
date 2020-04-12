@@ -1,0 +1,106 @@
+________________________________________________________
+Doc Outline:
+	Home:
+	    Main Header
+	       Main Nav
+	       Hero Image
+	       Featured Products
+		  Featured Beer
+		     Featured Beer Text and Image
+		        Signature Ale
+		     Featured Beer Text and Image 2
+			Westside Ale
+		     Featured Beer Text and Image 3
+			Eastside Ale
+	       Our Brand
+	    Main Footer
+	       Footer Nav
+	       Footer Nav 2
+
+
+	Products: 
+	        Main Header
+		   Main Nav
+		   Hero Image
+		   Beer
+		      Classic Series
+		      Classic Series Content
+		         Beer #1 Content
+		            Signature Ale
+		         Beer #2 Content
+		            Eastside Ale
+		         Beer #3 Content
+		            Westside Ale
+		         Beer #4 Content
+		            Southside Ale
+		      Fruit Series
+		      Fruit Series Content
+		         Beer #1 Content
+		            Northside Ale
+		         Beer #2 Content
+		            Swift Ale
+		         Beer #3 Content
+		            Dash Ale
+		         Beer #4 Content
+		            Spicy Ale
+			Don't know where to buy the product?
+		Main Footer
+		   Footer Nav
+		   Footer Nav 2
+
+	
+	Our Brand:
+		Main Header
+		   Main Nav
+		   Hero Image
+		   Our Brand Content
+		      Our Brand
+		      History
+		      Local Products
+		   Main Footer
+		      Footer Nav
+		      Footer Nav 2
+
+
+	Contact:
+		Main Header
+		   Main Nav
+		   Hero Image
+		   Email Us
+		      Contact Form
+		         Row
+			    Input Box
+			    Input Box
+			 Row
+			    Input Box
+			    Input Box
+			 Message Row
+			 Row
+		   Social Media
+		      Social Media Logos
+		Main Footer
+		   Footer Nav
+		   Footer Nav 2
+
+	Promotions:
+		Main Header
+			Main Nav
+			Hero Image
+			Promotions
+				Promo Images
+				Video
+		Main Footer
+		Footer Nav
+		Footer Nav 2
+		
+
+________________________________________________________
+Fonts:
+   Font Sizes:
+	H2(ex.Featured Products) - 32px
+	H3(ex. Classic Series) - 28px
+	H4(ex. Beer Name) - 18px
+	H5(ex. brand title 2) - 22px
+	P - 14px
+	Top Nav/Search Bar - 24px
+________________________________________________________
