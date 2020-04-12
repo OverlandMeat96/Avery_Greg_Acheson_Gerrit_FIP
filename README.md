@@ -3,7 +3,7 @@
 # Final Integrated Project
 
 ### Overview
-
+This website is the brand machup between Alexander Keiths and Puma Speed-Orbiter. In the website, you will find 5 pages, including a home page, products, our brand, contact, and promotions page. All of the content was created by us for this project. 
 
 ### Getting Started
 This is a basic HTML / CSS build.
