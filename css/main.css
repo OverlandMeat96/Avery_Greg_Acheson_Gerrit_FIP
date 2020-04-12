@@ -671,7 +671,12 @@ to {left: 160px; transform: rotate(90deg);}
 .heroImgPromotions {
 	width: 960px;
 	height: 542px;
-	background-color: red;
+	margin: 0px 0px 40px 0px;
+}
+
+.heroImgPromotions img{
+	width: 960px;
+	height: 542px;
 	margin: 0px 0px 40px 0px;
 }
 
@@ -701,7 +706,6 @@ to {left: 160px; transform: rotate(90deg);}
 	height: 250px;
 	display: flex;
 	margin: 60px 0px 50px 280px;
-	background-color: orange;
 }
 
 @media screen and (max-width: 642px) { /* Rsponsive Part */
@@ -715,6 +719,7 @@ to {left: 160px; transform: rotate(90deg);}
 
 .promoVid {margin: 60px 0px 50px 110px;}
 }
+
 /*----------------FOOTER----------------*/
 
 .mainFooter {   /* Footer Section Dimensions */

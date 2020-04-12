@@ -1,0 +1,8 @@
+  2020-04-12 2:22:40 PM: Starting composition “Infomercial Video”.
+
+  Output To: C:\Users\grego\Downloads\Avery_Greg_Acheson_Gerrit_FIP\assets\Infomercial_Video_AME\-renders\Infomercial Video_Half.avi    2020-04-12 2:23:01 PM: Finished composition “Infomercial Video”.
+
+
+  Total Time Elapsed: 21 Seconds
+Log closed on 2020-04-12 at 2:23:01 PM
+
